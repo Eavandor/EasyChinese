@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    tools:context="Recite.ReciteActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/li1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/kjasdhk"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/usericon"></ImageView>
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:layout_toRightOf="@+id/kjasdhk"-->
+<!--                        android:text="User"-->
+<!--                        android:textAllCaps="false"-->
+<!--                        android:textColor="#000000"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:textStyle="bold"></TextView>-->
+
+                    <LinearLayout
+                        android:id="@+id/jkdsfhkjdsf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/greybg"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/mon1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="3dp"
+                            android:text="1"
+                            android:textSize="20dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/mon2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="3dp"
+                            android:text="1"
+                            android:textSize="20dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/mon3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="3dp"
+                            android:text="1"
+                            android:textSize="20dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/mon4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="3dp"
+                            android:text="1"
+                            android:textSize="20dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/mon5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="3dp"
+                            android:text="1"
+                            android:textSize="20dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/mon6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="3dp"
+                            android:text="1"
+                            android:textSize="20dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/mon7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="3dp"
+                            android:text="1"
+                            android:textSize="20dp"></TextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="6dp"
+                        android:layout_toLeftOf="@+id/jkdsfhkjdsf"
+                        android:text="Oct"
+                        android:textColor="#6d8cf1"
+                        android:textSize="20dp"
+                        android:textStyle="bold"></TextView>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/kujhedfkajh"
+                        android:layout_width="90dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/book1"></ImageView>
+
+                    <LinearLayout
+                        android:id="@+id/processli"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/bookname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:text="Chinese vocabulary 1"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:textStyle="bold"></TextView>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/processshower"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="每日10词，还剩121天"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <SeekBar
+                            android:id="@+id/skbb"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:max="100"
+                            android:progress="30"></SeekBar>
+
+                        <TextView
+                            android:id="@+id/processdigit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="已学单词：   30/100"
+                            android:textSize="15dp"></TextView>
+
+                        <Button
+
+                            android:id="@+id/modifyPlan"
+                            android:layout_width="100dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/crbg4"
+                            android:text="Search Word"
+                            android:textAllCaps="false"
+                            android:textColor="#d2d2d2"
+                            android:textStyle="bold"></Button>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:visibility="gone"
+    android:id="@+id/hided"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Type here"
+        android:id="@+id/targer_word"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/purplebutton"
+        android:text="Srarch"
+        android:id="@+id/search"
+        />
+
+</LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="14dp"
+                    android:background="#d0e1ea"></LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Today's plan:"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"></TextView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="new words"
+                            android:textSize="15dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/neednewlearnwordnum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:textColor="@color/black"
+                            android:textSize="40dp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="word to be reviewed"
+                            android:textSize="15dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/needreviewwordnum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15"
+                            android:textColor="@color/black"
+                            android:textSize="40dp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="21dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="cards"
+                            android:textSize="15dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/cardnum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15"
+                            android:textColor="@color/black"
+                            android:textSize="40dp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/fejkshjkfs"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/purplebutton"
+                    android:text="Start reciting words！"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17dp"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/li1"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Word Cards To Be Reviewed："
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:id="@+id/jkhads"
+                    android:textSize="20dp"
+                    android:textStyle="bold"></TextView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rclrvneedtoreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="400dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="40dp"></androidx.recyclerview.widget.RecyclerView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"></LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="40dp"
+
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>

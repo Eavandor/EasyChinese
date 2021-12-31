@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myhome"
+        android:icon="@drawable/recite2"
+        android:title="Recite" />
+
+    <item
+        android:id="@+id/tools"
+        android:icon="@drawable/test2"
+        android:title="Test" />
+
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/me2"
+        android:title="User" />
+
+</menu>

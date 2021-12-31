@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiStateView">
+        <attr name="loadingView" format="reference" />
+        <attr name="errorView" format="reference" />
+        <attr name="emptyView" format="reference" />
+        <attr name="noNetworkView" format="reference" />
+        <attr name="contentView" format="reference" />
+    </declare-styleable>
+    <attr name="colorThird" format="color" />
+    <attr name="navHeaderBackgroundColor" format="color" />
+
+    <declare-styleable name="WheelView">
+        <!--未选中item的可显示个数-->
+        <attr name="ns_topCount" format="integer" />
+        <attr name="ns_bottomCount" format="integer" />
+        <!--文字大小-->
+        <attr name="ns_maxTextSize" format="dimension" />
+        <attr name="ns_minTextSize" format="dimension" />
+        <!--maxTextColor和minTextColor间使用ArgbEvaluator过渡-->
+        <attr name="ns_maxTextColor" format="color" />
+        <attr name="ns_minTextColor" format="color" />
+        <!--maxText和minText间的距离-->
+        <attr name="ns_lineSpacing" format="dimension" />
+        <!--是否循环滚动-->
+        <attr name="ns_isCyclic" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BlurView">
+        <attr name="ns_blurRadius" format="float" />
+        <attr name="ns_downSampleFactor" format="integer" />
+        <attr name="ns_overlayColor" format="color" />
+        <attr name="ns_realTime" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleDoneView">
+        <attr name="paintColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="strokeCap" format="flags">
+            <flag name="butt" value="0"/>
+            <flag name="round" value="1"/>
+            <flag name="square" value="2"/>
+        </attr>
+        <attr name="offsetX" format="dimension"/>
+        <attr name="offsetY" format="dimension" />
+        <attr name="startAngle" format="float" />
+        <attr name="sweepAngle" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="MyBottomSheet">
+        <attr name="contentLayout" format="reference"/>
+        <attr name="contentGravity" format="flags">
+            <flag name="center" value="1"/>
+            <flag name="bottom" value="0"/>
+        </attr>
+    </declare-styleable>
+</resources>
